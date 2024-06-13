@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "DisplayBold";
+    src: url(../assets/fonts/LEMONMILK-Bold.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "DisplayBoldItalic";
+    src: url(../assets/fonts/LEMONMILK-BoldItalic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "DisplayRegular";
+    src: url(../assets/fonts/LEMONMILK-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "DisplayRegularItalic";
+    src: url(../assets/fonts/LEMONMILK-RegularItalic.ttf) format("truetype");
+  }
+}
