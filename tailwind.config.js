@@ -64,6 +64,7 @@ export default {
         displayBoldItalic: ["DisplayBoldItalic"],
         displayRegular: ["DisplayRegular"],
         DisplayRegularItalic: ["DisplayRegularItalic"],
+        DisplayLight: ["DisplayLight"],
       },
     },
   },

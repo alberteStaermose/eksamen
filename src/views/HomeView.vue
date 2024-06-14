@@ -41,12 +41,12 @@
           </h1> -->
         </div>
       </div>
-      <div class="justify-center flex items-center pt-10">
-        <img
+      <div id="baggrund" class="justify-center flex items-center pt-10">
+        <!-- <img
           class="absolute w-screen -z-20 top-0"
           src="../components/img/mainBaggrundGradient.png"
           alt=""
-        />
+        /> -->
         <img
           class="w-auto h-3/4"
           src="../components/img/figurerMain.png"
@@ -56,3 +56,5 @@
     </section>
   </main>
 </template>
+
+<style></style>

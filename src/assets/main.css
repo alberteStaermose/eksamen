@@ -20,4 +20,9 @@
     font-family: "DisplayRegularItalic";
     src: url(../assets/fonts/LEMONMILK-RegularItalic.ttf) format("truetype");
   }
+
+  @font-face {
+    font-family: "DisplayLight";
+    src: url(../assets/fonts/LEMONMILK-Light.ttf) format("truetype");
+  }
 }
