@@ -9,7 +9,7 @@
             While in battle
           </h1>
           <h1
-            class="font-DisplayRegularItalic text-4xl col-start-8 col-span-full"
+            class="font-displayRegularItalic text-4xl col-start-8 col-span-full"
           >
             i'm free,
           </h1>
@@ -49,7 +49,7 @@
         /> -->
         <img
           class="w-auto h-3/4"
-          src="../components/img/figurerMain.png"
+          src="../assets/images/figurerMain.png"
           alt=""
         />
       </div>

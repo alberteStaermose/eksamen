@@ -3,9 +3,9 @@ import { RouterLink, RouterView } from "vue-router";
 // import Toggle from "../src/components/Toggle.vue";
 </script>
 
-<template>
+<template id="menu">
   <header
-    class="absolute bg-basic900/25 w-[8vw] right-0 h-screen z-50 grid justify-items-stretch py-8 font-displayLight uppercase"
+    class="fixed bg-basic100/25 w-[8vw] right-0 h-screen z-50 grid justify-items-stretch py-8 font-displayLight uppercase"
   >
     <!-- <Toggle class="self-start justify-self-center"></Toggle> -->
     <div class="grid justify-center">
@@ -20,7 +20,7 @@ import { RouterLink, RouterView } from "vue-router";
             'w-fit',
             'justify-items-center',
             'p-1',
-            'text-primaryOne400',
+            'text-basic200',
             currentMode,
           ]"
         >
@@ -64,7 +64,7 @@ import { RouterLink, RouterView } from "vue-router";
         'default-mode',
         'h-screen',
         'w-screen',
-        'absolute',
+        'fixed',
         'top-0',
         '-z-50',
         currentMode,
@@ -97,7 +97,7 @@ import { RouterLink, RouterView } from "vue-router";
   background-color: #18140c !important;
 }
 .dark-mode .buttons {
-  background-color: #8c86a9; /* Dark mode background color */
+  background-color: #0811a8; /* Dark mode background color */
   color: #eae1d1; /* Text color for dark mode */
 }
 .light-mode {
@@ -144,17 +144,46 @@ button:hover {
 /* Baggrund */
 
 .default-mode {
-  background: radial-gradient(circle, #614334, #b03a00);
+  background: radial-gradient(
+    circle,
+    #e63e46,
+    #ff935e,
+    #e63e46,
+    #332a18,
+    #18140c,
+    #18140c,
+    #18140c
+  );
 }
 
 .dark-mode {
-  background: radial-gradient(circle, #18140c, #8c86a9);
+  background: radial-gradient(
+    circle,
+    #0d1af3,
+    #0a15ca,
+    #0811a8,
+    #070e8b,
+    #060c73,
+    #18140c
+  );
 }
 
 .light-mode {
-  background: radial-gradient(circle, #ffffff, #ec6a70);
+  background: radial-gradient(
+    circle,
+    #dc1d26,
+    #e63e46,
+    #ec6a70,
+    #f39ea1,
+    #fbdbdc
+  );
 }
 
+#menu {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
 /* nav a.router-link-exact-active {
   color: var(--color-text);
 }
