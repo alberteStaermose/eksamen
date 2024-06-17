@@ -22,6 +22,13 @@
         </h1>
       </div>
     </div>
+    <div class="absolute bottom-3 left-10 font-displayRegularItalic">
+      <p>
+        25-29 juni <br />
+        Kl 19:30
+      </p>
+    </div>
+
     <div id="baggrundHome" class="justify-center flex items-center pt-10 z-50">
       <img
         id="formerGrund"
