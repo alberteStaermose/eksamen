@@ -65,7 +65,7 @@ import { RouterLink, RouterView } from "vue-router";
         <feTurbulence type="turbulence" baseFrequency="5" numOctaves="2" />
       </filter>
 
-      <rect width="100%" height="100%" filter="url(#noiseFilter)" />
+      <rect width="100vw" height="100vh" filter="url(#noiseFilter)" />
     </svg>
     <div
       id="baggrund"
