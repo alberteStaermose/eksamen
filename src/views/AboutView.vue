@@ -1,8 +1,9 @@
 <template>
   <button
-    class="absolute text-basic200 hover:opacity-50 font-displayRegularItalic mt-[30px] ml-[30px]"
+    id="tilbageKnap"
+    class="link absolute no-underline text-basic200 font-displayRegularItalic mt-[30px] ml-[30px]"
   >
-    Tilbage til forside
+    <a href="javascript:history.back()">Tilbage til forside</a>
   </button>
   <div>
     <div class="grid grid-cols-2 gap-4">

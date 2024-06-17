@@ -26,3 +26,159 @@
     src: url(../assets/fonts/LEMONMILK-Light.ttf) format("truetype");
   }
 }
+
+.light-mode h1 {
+  color: #690e12;
+}
+.dark-mode h1 {
+  color: #9ea4fa;
+}
+
+.light-mode h2 {
+  color: #690e12;
+}
+.dark-mode h2 {
+  color: #e0e2fd;
+}
+
+.light-mode p {
+  color: #690e12;
+}
+.dark-mode p {
+  color: #e0e2fd;
+}
+
+.light-mode #tilbageKnap {
+  color: #690e12;
+}
+.dark-mode #tilbageKnap {
+  color: #e0e2fd;
+}
+
+/*  */
+/*  */
+/*  */
+/* Nav styling!! */
+/*  */
+/* Links in nav */
+#navLink {
+  writing-mode: vertical-rl;
+  font-size: 1rem;
+  margin-bottom: 1rem; /* Adjust the spacing between links */
+  display: block;
+}
+.link:hover {
+  text-decoration: underline;
+}
+/*  */
+/* Toggle button */
+.button {
+  box-shadow: inset 0 0 10px #18140c;
+  padding: 1px;
+  border-radius: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: #792800;
+  color: #eae1d1;
+}
+
+.dark-mode .button {
+  background-color: #3641f5;
+  box-shadow: inset 0 0 10px #18140c;
+  color: #e0e2fd;
+}
+
+.light-mode .button {
+  background-color: #fbdbdc;
+  box-shadow: inset 0 0 10px #690e12;
+  color: #dc1d26;
+}
+
+.button.active {
+  background: radial-gradient(circle, #ff5400, #b03a00);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  color: #eae1d1;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  color: #eae1d1;
+  box-shadow: inset 0 0 50px #ff712b;
+  transition: all 0.5s ease;
+}
+
+/* Toggle knappen */
+.dark-mode #toggle {
+  background-color: #060c73;
+}
+
+.light-mode #toggle {
+  background-color: #f39ea1;
+}
+
+/* Background */
+.default-mode {
+  background: radial-gradient(
+    circle,
+    #e63e46,
+    #ff935e,
+    #e63e46,
+    #332a18,
+    #18140c,
+    #18140c,
+    #18140c
+  );
+}
+
+.dark-mode #baggrund {
+  background: radial-gradient(
+    circle,
+    #0d1af3,
+    #0a15ca,
+    #0811a8,
+    #070e8b,
+    #060c73,
+    #18140c
+  );
+}
+.light-mode #baggrund {
+  background: radial-gradient(
+    circle,
+    #dc1d26,
+    #e63e46,
+    #ec6a70,
+    #f39ea1,
+    #fbdbdc
+  );
+}
+
+/* Navbar */
+.dark-mode header {
+  background-color: #0811a8;
+}
+
+.light-mode header {
+  background-color: #ec6a70;
+}
+
+.dark-mode header #navLinks {
+  color: #9ea4fa;
+}
+
+.light-mode header #navLinks {
+  color: #690e12;
+}
+
+/* Andet styling */
+
+#menu {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
