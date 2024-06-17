@@ -1,10 +1,11 @@
 <template>
-  <button
+  <a
+    href="javascript:history.back()"
     id="tilbageKnap"
-    class="link absolute no-underline text-basic200 font-displayRegularItalic mt-[30px] ml-[30px]"
+    class="link absolute no-underline text-basic200 font-displayRegularItalic mt-10 ml-10"
+    >Tilbage til forside</a
   >
-    <a href="javascript:history.back()">Tilbage til forside</a>
-  </button>
+
   <div>
     <div class="grid grid-cols-2 gap-4">
       <div class="">
@@ -65,7 +66,7 @@
 
     <div class="mb-24">
       <img
-        src="../assets/images/hooman.jpeg"
+        src="../assets/images/hooman.jpg"
         alt=""
         class="h-[300px] mt-[180px] ml-[900px]"
       />
