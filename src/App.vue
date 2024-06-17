@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header
-    class="fixed bg-primaryOne900 w-[8vw] right-0 h-screen z-50 grid justify-items-stretch py-8 font-displayLight uppercase"
+    class="fixed bg-primaryOne900 w-[8vw] right-0 h-screen grid justify-items-stretch py-8 font-displayLight uppercase"
   >
     <div id="myToggle" class="grid justify-center">
       <div>
@@ -60,6 +60,13 @@ import { RouterLink, RouterView } from "vue-router";
   <RouterView />
 
   <main>
+    <svg class="fixed top-0 -z-10 w-screen h-screen">
+      <filter id="noiseFilter">
+        <feTurbulence type="turbulence" baseFrequency="5" numOctaves="2" />
+      </filter>
+
+      <rect width="100%" height="100%" filter="url(#noiseFilter)" />
+    </svg>
     <div
       id="baggrund"
       :class="[
@@ -74,7 +81,11 @@ import { RouterLink, RouterView } from "vue-router";
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+header {
+  z-index: 100;
+}
+</style>
 
 <script>
 export default {

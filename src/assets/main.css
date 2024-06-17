@@ -137,23 +137,34 @@
 }
 
 .dark-mode #baggrund {
+  z-index: -100;
   background: radial-gradient(
     circle,
-    #0d1af3,
     #0a15ca,
-    #0811a8,
     #070e8b,
     #060c73,
+    #060c73,
+    #090d5a,
+    #090d5a,
+    #070b41,
+    #06082e,
+    #06082e,
+    #06082e,
+    #18140c,
     #18140c
   );
 }
 .light-mode #baggrund {
+  z-index: -100;
+
   background: radial-gradient(
     circle,
     #dc1d26,
     #e63e46,
     #ec6a70,
+    #ec6a70,
     #f39ea1,
+    #fbdbdc,
     #fbdbdc
   );
 }
