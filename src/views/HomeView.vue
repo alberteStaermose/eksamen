@@ -44,10 +44,34 @@
         alt=""
       />
     </div>
+
+    <div
+      class="absolute bottom-0 z-50 text-basic200 flex flex-row justify-between w-screen pr-44 pl-10 font-displayRegular text-lg"
+    >
+      <img
+        id="metroLogo"
+        class="h-4 w-auto self-center"
+        src="../assets/images/llogo.svg"
+        alt=""
+      />
+      <p>Blågårds plads</p>
+      <p>Cullberg & Hooman Sharifi</p>
+      <p>25-29 juni Kl 19:30</p>
+    </div>
   </section>
 </template>
 
 <style>
+.light-mode #metroLogo {
+  filter: invert(9%) sepia(44%) saturate(6819%) hue-rotate(348deg)
+    brightness(45%) contrast(97%);
+}
+
+.dark-mode #metroLogo {
+  filter: sepia(32%) saturate(7500%) hue-rotate(200deg) brightness(170%)
+    contrast(96%);
+}
+
 .light-mode #kanter {
   filter: invert(30%) sepia(98%) saturate(4105%) hue-rotate(342deg)
     brightness(200%) contrast(80%);

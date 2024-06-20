@@ -6,13 +6,7 @@ import { RouterLink, RouterView } from "vue-router";
   <header
     class="fixed bg-primaryOne900 w-[8vw] right-0 h-screen grid justify-items-stretch pb-2 font-displayLight uppercase text-basic200"
   >
-    <div class="text-center font-displayRegularItalic pt-2 h-fit pb-2">
-      <p>
-        25-29 juni <br />
-        Kl 19:30
-      </p>
-    </div>
-    <div id="myToggle" class="grid justify-center">
+    <div id="myToggle" class="grid justify-center pt-2">
       <div>
         <div
           id="toggle"
